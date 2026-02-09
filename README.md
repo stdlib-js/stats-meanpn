@@ -63,7 +63,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import meanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-meanpn@esm/index.mjs';
+import meanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-meanpn@v0.1.1-esm/index.mjs';
 ```
 
 #### meanpn( x\[, options] )
@@ -224,7 +224,7 @@ The method accepts the following options:
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@esm/index.mjs';
 import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import meanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-meanpn@esm/index.mjs';
+import meanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-meanpn@v0.1.1-esm/index.mjs';
 
 // Generate an array of random numbers:
 var x = uniform( [ 5, 5 ], 0.0, 20.0 );
